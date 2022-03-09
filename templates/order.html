@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            {{ title }} - Your great coffee starts here
+        </title>
+    </head>
+    <body>
+        <h1>
+            All coffee ordered today
+        </h1>
+        
+        <!-- {% block content %} -->
+        <p> {{ order.customer_name }}: <b> {{ order.order_date }} </b>, <b> {{ order.quantity }}</b>, <b> {{ order.price }} </b></p>
+        <!-- {% endblock content %}
+         -->
+    </body>
+</html>

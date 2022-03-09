@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
     <head>
         <title>
             {{ title }} - Your great coffee starts here
@@ -13,5 +13,30 @@
                 <p> {{ coffee.customer_name }}: <b> {{ coffee.order_date }} </b>, <b> {{ coffee.quantity }}</b>, <b> {{ coffee.price }} </b></p>
             </ul>
         {% endfor %}
+    </body>
+</html> -->
+
+
+<html>
+    <head>
+        <title>
+            {{ title }} - Your great coffee starts here
+        </title>
+    </head>
+    <body>
+        <h1>
+            Coffee Orders
+        </h1>
+        <ul>
+            <li>
+                <a href="http://127.0.0.1:5000/orders/0">Order 1</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5000/orders/1">Order 2</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5000/orders/2">Order 3</a>
+            </li>
+        </ul>
     </body>
 </html>
