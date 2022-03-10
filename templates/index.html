@@ -15,7 +15,7 @@
         {% endfor %}
     </body>
 </html> -->
-
+<link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
 
 <html>
     <head>
@@ -26,16 +26,17 @@
     <body>
         <h1>
             Coffee Orders
+            
         </h1>
         <ul>
             <li>
-                <a href="http://127.0.0.1:5000/orders/0">Order 1</a>
+                <a href="http://127.0.0.1:5000/orders/0">First coffee order</a>
             </li>
             <li>
-                <a href="http://127.0.0.1:5000/orders/1">Order 2</a>
+                <a href="http://127.0.0.1:5000/orders/1">Second coffee order</a>
             </li>
             <li>
-                <a href="http://127.0.0.1:5000/orders/2">Order 3</a>
+                <a href="http://127.0.0.1:5000/orders/2">Third coffee order </a>
             </li>
         </ul>
     </body>
